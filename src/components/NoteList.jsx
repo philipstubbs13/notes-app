@@ -1,5 +1,6 @@
 import Note from "./Note";
 
+// note list
 const NoteList = ({ notes, deleteNote }) => {
   if (notes.length === 0) {
     return <p className="text-center text-gray-500">No Notes Yet</p>;
